@@ -1,5 +1,5 @@
 function why(){
-	prompt("Pourquoi ?")
+	prompt("Why you do this ?")
 }
 
 
@@ -8,7 +8,7 @@ function copy(value){
   	tempInput.value = value;
   	document.body.appendChild(tempInput);
   	tempInput.select();
-  	document.execCommand("copier");
+  	document.execCommand("copy");
   	document.body.removeChild(tempInput);
 }
 
@@ -17,16 +17,16 @@ function discord(){
 	copy("Moi#5013")
     Swal.fire({
         icon: 'success',
-        title: 'ID Discord',
-        text: 'ID Discord a été copier!',
+        title: 'Discord ID Copied',
+        text: 'Discord ID was copied!',
         button: 'Noice'
     })
 }
 
 function email(){
-	copy("k4asupport@support.k4a.fr")
+	copy("mathias@dupeux.net")
 	Swal.fire({
         icon: 'success',
-        title: 'Email copier',
-        text: "L'Email a été copier!"})
+        title: 'Email Copied',
+        text: 'Email was copied!'})
 }
