@@ -1,0 +1,81 @@
+.header {
+    height: 450px;
+    width: 100%;
+    background: rgb(62,57,107);
+    position: relative;
+}
+.header__texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    background: url('../img/web-design.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.header__k4a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;left: 0;
+    background: url('../img/K4Tenda.jpg') center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.5;
+}
+
+.header__mask {
+    position: absolute;
+    bottom: 0;
+    background: 0 0;
+    height: 42px;
+    width: 100%;
+    z-index: 10;
+}
+
+.header__navbar {
+    width: 100;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navbar--logo-title {
+    color: white;
+    font-size: 28px;
+}
+
+.header__navbar--menu-link {
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__slogan {
+    text-align: center;
+    margin-top: auto;
+}
+
+.h__slogan--title {
+    color: #fff;
+    font-style: 60px;
+    text-transform: uppercase;
+    font-family: 'Anton';
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.h__slogan--btn {
+    transition: all 0.3s ease-in-out;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 20px;
+    background: darkgray;
+    border-radius: 10px;
+    cursor: pointer;
+}

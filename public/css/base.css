@@ -1,0 +1,12 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+} 
+
+.container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
