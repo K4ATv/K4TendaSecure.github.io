@@ -1,4 +1,4 @@
-.articles {
+.article {
     text-align: center;
     padding-top: 30px;
 
@@ -19,7 +19,7 @@
     flex-wrap: wrap-reverse;
 }
 .article {
-    width: 25%;
+    width: 99%;
     height: 200px;
     border-radius: 5px;
     background-size: cover;
