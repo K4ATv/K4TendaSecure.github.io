@@ -1,13 +1,13 @@
 .article {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 50px;
 
 }
 .articles__title {
     font-size: 40px;
     text-align: center;
     color: #333;
-    border-bottom: 4px solid #f39c12;
+    border-bottom: 5px solid #f39c12;
     display: inline;
 }
 
